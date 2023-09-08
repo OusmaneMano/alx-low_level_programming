@@ -1,5 +1,6 @@
-#include<sdtio.h>
-#include<unisdt.h>
+#include <sdtio.h>
+#include <unisdt.h>
+
 /**
  * main - Entry Point
  *
@@ -7,7 +8,8 @@
  */
 int main(void)
 {
-	fput("and that piece of art is useful" - Dora Korpar, 2015-10-19\n", sdtout);
+	write(2,
+	"and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
 
