@@ -19,6 +19,9 @@ int _islower(int c)
 		else
 		{
 			low = 0;
-	}
+		}
+	_putchar(low);
 		return (low);
+	}
 }
+
