@@ -8,7 +8,7 @@
 int _islower(int c)
 {
 	char al;
-	int low;
+	int low = 0;
 
 	for (al = 'a'; al <= 'z'; al++)
 	{
@@ -16,11 +16,7 @@ int _islower(int c)
 		{
 			low = 1;
 		}
-		else
-		{
-			low = 0;
-		}
-	_putchar(low);
+	}
 		return (low);
 	}
 }
