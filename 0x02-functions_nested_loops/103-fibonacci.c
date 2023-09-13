@@ -14,10 +14,10 @@ int main(void)
 	int sum = 2;
 	int next;
 
-	for (i = 1; i <= limit; i++)
+	while (next <= limit)
 	{
 		next = term1 + term2;
-		if ((i % 2) == 0)
+		if ((next % 2) == 0)
 			sum += next;
 		term1 = term2;
 		term2 = next;
