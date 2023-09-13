@@ -6,7 +6,8 @@
  *
  *@r: detects number
  *
- * return: 1
+ * Return: always 1 (success)
+ *
  */
 
 int _abs(int r)
@@ -15,6 +16,6 @@ int _abs(int r)
 	if (r >= 0)
 		return (r);
 	else
-		return (r* -1);
+		return (r * -1);
 }
 
