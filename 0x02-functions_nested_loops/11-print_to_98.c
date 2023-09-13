@@ -18,12 +18,12 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
-			_putchar(n);
+			_putchar(i);
 			_putchar('\n');
 		}
 		else
 		{
-			_putchar(n);
+			_putchar(i);
 			_putchar(44);
 			_putchar(32);
 		}
@@ -35,12 +35,12 @@ void print_to_98(int n)
 	{
 	if (n == 98)
 	{
-	_putchar(n);
+	_putchar(i);
 	_putchar('\n');
 	}
 	else
 	{
-	_putchar(n);
+	_putchar(i);
 	_putchar(44);
 	_putchar(32);
 	}
