@@ -19,7 +19,7 @@ int main(void)
 		term2 = next;
 		printf("%lu", next);
 
-		if (i < 97)
+		if (i <= 97)
 		printf(", ");
 
 		i++;
