@@ -12,14 +12,14 @@ int main(void)
 	int i = 0;
 
 
-	while (i < 8)
+	while (i < 98)
 	{
 		next = term1 + term2;
 		term1 = term2;
 		term2 = next;
 		printf("%lu", next);
 
-		if (i != 97)
+		if (i < 97)
 		printf(", ");
 
 		i++;
