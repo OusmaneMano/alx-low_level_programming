@@ -12,7 +12,7 @@ int main(void)
 	int i = 0;
 
 
-	while (i < 98)
+	while (i < 8)
 	{
 		next = term1 + term2;
 		term1 = term2;
