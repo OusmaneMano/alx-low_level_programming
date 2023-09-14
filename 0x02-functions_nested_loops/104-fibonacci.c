@@ -9,10 +9,10 @@ int main(void)
 	unsigned long int term1 = 0;
 	unsigned long int term2 = 1;
 	unsigned long int next = 0;
-	int i;
+	int i = 0;
 
 
-	for (i = 0; i < 98; i++)
+	while (i < 98)
 	{
 		next = term1 + term2;
 		term1 = term2;
@@ -21,6 +21,8 @@ int main(void)
 
 		if (i != 97)
 		printf(", ");
+
+		i++;
 	}
 	printf("\n");
 	return (0);
