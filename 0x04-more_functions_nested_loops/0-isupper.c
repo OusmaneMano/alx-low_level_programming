@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _isupper - check of uppercase
  * Description: use _putchar to print
@@ -8,17 +8,14 @@
 
 int _isupper(int c)
 {
-	char upper;
 
-	for (upper = 'A'; upper <= "Z"; upper++)
+	if (c == 65 && c <= 90)
 	{
-		if (c == upper)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
+
