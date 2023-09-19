@@ -13,8 +13,8 @@ void puts_half(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		longi++;
+		m = longi / 2;
 	}
-	m = longi / 2;
 	if ((m % 2) == 1)
 	{
 		m = (longi + 1) / 2;
