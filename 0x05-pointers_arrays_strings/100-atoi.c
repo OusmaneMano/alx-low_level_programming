@@ -26,13 +26,13 @@ int _atoi(char *s)
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
-		if (d % 2)
+			if (d % 2)
 			digit = -digit;
-		n = n * 10 + digit;
-		f = 1;
-		if (s[i + 1] < '0' || s[i + 1] > '9')
-			 break;
-		f = 0;
+			n = n * 10 + digit;
+			f = 1;
+			if (s[i + 1] < '0' || s[i + 1] > '9')
+			break;
+			f = 0;
 		}
 		i++;
 	}
