@@ -6,10 +6,10 @@
  * main - entry point
  * @argc: number of argument
  * @argv: array of argumant
- * Return: 0
+ * Return: 0 or 1
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num, j, result;
 	int coins[] = {25, 10, 5, 2, 1};
@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 	num = atoi(argv[1]);
 	result = 0;
 
-	if(num < 0)
+	if (num < 0)
 	{
 	printf("0\n");
 	return (0);
