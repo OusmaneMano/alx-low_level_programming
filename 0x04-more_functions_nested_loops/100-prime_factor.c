@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 /**
  * main - Entry point
  * number: 612852475143
@@ -7,22 +8,19 @@
 
 int main(void)
 {
-	long int i, n, d;
+	long i, n, d;
 
 	n = 612852475143;
-	for (i = 0; i <= n; i++)
+	double s = sqrt(n);
+	for (i = 0; i <= s; i++)
 	{
 		if ((n % i) == 0)
 		{
-			if (n == i)
-			{
-				printf("%1ld\n", i);
-				break;
-			}
 			d = n / i;
-			n = d;
 		}
 	}
-	return (0);
+		printf("%1ld\n", d);
+		
+		return (0);
 }
 
